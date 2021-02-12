@@ -62,7 +62,7 @@ We should change the number of filters in convolution layer just before every YO
 
 And Filters we can calculated as 
 
-<div align="center"> Anchors * (5 + no.of classes) </div> 
+### Anchors * (5 + no.of classes) 
 
 For Example, if we choose 3 anchor boxes and having 4 object classes to detect, we should edit the 
 
