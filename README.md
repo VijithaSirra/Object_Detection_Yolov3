@@ -1,4 +1,9 @@
-# YOLO, A State-Of-The-Art and A Real Time Object Detection System, Created by Joseph Redmon 
+# <div align="center"> Object Detection Using YOLO v3</div>
+<p align="center">
+  <img src="image.jpg">
+</p>
+
+### YOLO, A State-Of-The-Art and A Real Time Object Detection System, Created by Joseph Redmon 
 
 and its based on the Darknet Neural Network.
 
@@ -13,10 +18,6 @@ network architecture based on CNN. Now Its became the first priority for Object 
 And we can detect objects in live with the help of YOLO. 
 
 
-
-
-
-                Image Source : (https://pjreddie.com/darknet/yolo/)
 
 Difference Between Five Versions Of YOLO:
  * YOLOv2 is better than YOLOv1 in terms of Accuracy and Speed.
@@ -45,11 +46,6 @@ annotations which gives the txt file with Obj - Class, X - Center, Y - Center, H
 
 
 
-
-                                                     
-                                                       image source :                                    (https://colab.research.google.com/drive/1lTGZsfMaGUpBG4inDIQwIJVW476ibXk)       
-
-
 After cloning darknet folder in google colab as per instructions from tutorial, We should edit few 
 
 files and need to add some folders.
@@ -66,7 +62,7 @@ We should change the number of filters in convolution layer just before every YO
 
 And Filters we can calculated as 
 
-                                                  Anchors * (5 + no.of classes) 
+<div align="center"> Anchors * (5 + no.of classes)</div> Anchors * (5 + no.of classes) 
 For Example, if we choose 3 anchor boxes and having 4 object classes to detect, we should edit the 
 
 filters as 27. Next, we should change the number of object classes to detect as per our model.
@@ -75,8 +71,6 @@ filters as 27. Next, we should change the number of object classes to detect as 
 Image Folder should contain all images with annotation text files as shown in the above image .
 
 train.txt and test.txt should contain the links of images as shown below.
-
-
 
 
 
@@ -95,14 +89,12 @@ tutorial, and we can check the mAP also. You can stop the training process once 
 
 < 0.06 or else once the average loss is no longer increases.
 
-Advantages :
+## Advantages :
 
 This is a faster Object Detection model with 45 frames per sec.
 
-Disadvantages :
+## Disadvantages :
 
-It is difficult to locate the smaller objects in an image. This is due to the spatial constrain of the 
-
-algorithm.
+It is difficult to locate the smaller objects in an image. This is due to the spatial constrain of the algorithm.
 
 
