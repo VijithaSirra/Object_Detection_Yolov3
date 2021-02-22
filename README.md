@@ -71,7 +71,7 @@ filters as 27. Next, we should change the number of object classes to detect as 
 
 Image Folder should contain all images with annotation text files as shown in the above image .
 
-train.txt and test.txt should contain the links of images as shown below.
+train.txt and test.txt should contain the links of image.
 
 
 
